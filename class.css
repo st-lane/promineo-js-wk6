@@ -1,0 +1,72 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding:1%;
+    padding-top: 60px;
+}
+
+h1 {
+    margin:0px;
+    background-color:darkgreen;
+    color:white;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-shadow: 10px 5px 5px rgb(170, 163, 163);
+    position:fixed;
+    z-index:10;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+h3{
+    border-bottom:1px solid #000000;
+}
+
+body > ol > li {
+    margin-bottom: 1.5em;
+}
+
+body > ol > li > ol {
+    list-style: lower-alpha;
+}
+body > ol > li > ol >li {
+    margin-bottom: 0.5em;
+}
+
+p.grumble{
+    font-style:italic;
+    margin:0.5em; 
+    margin-left:3em;
+}
+
+p.bold{
+    font-weight:bold;
+}
+p.list{
+    margin:0.5em; 
+    margin-left:1em;
+}
+
+div.cols{
+    width: 49%;
+    margin:0px;
+    padding: 0.5em;
+    float:left;
+    box-sizing: border-box;
+}
+
+div#msg {
+    border: 2px inset #dedede;
+    min-height: 300px;
+    max-height: 400px;
+    overflow-y: scroll;
+    /*
+    */
+}
+
+div.row {
+    margin-bottom:0.5em;
+    width: 50%;
+    float:left;
+}
