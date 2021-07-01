@@ -446,3 +446,11 @@ class WAR extends Utils{
 /* --------------------------------------------
 Write a Unit Test using Mocha and Chai for at least one of the functions you write.
 ------------------------------------------------- */
+
+// create a function to test 
+function doSomething(x,y){
+    if (typeof x != 'string'){
+        throw new Error("x must be a string");
+    }
+    return x + y;
+}
